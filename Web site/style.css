@@ -12,13 +12,13 @@ body {
 }
 
 .ground-colorIN {
-    background-color: white;
+    background-color: rgb(210, 154, 234);
     margin: 0px 70px -20px;
     padding: 5px 10px 80px;
 }
 
 .popular {
-    background-color: rgb(182, 182, 182);
+    background-color: rgb(227, 214, 235);
     border-radius: 5px;
 }
 
