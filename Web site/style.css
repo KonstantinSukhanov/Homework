@@ -8,11 +8,11 @@
 
 body {
     margin: 0px;
-    background-color: rgba(238, 255, 247, 0.877);
+    background-color: rgba(198, 249, 225, 0.877);
 }
 
 .ground-colorIN {
-    background-color: rgb(210, 154, 234);
+    background-color: rgb(234, 198, 250);
     margin: 0px 70px -20px;
     padding: 5px 10px 80px;
 }
