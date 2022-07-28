@@ -1,16 +1,16 @@
 .flex-wrapper {
-    height: 100vh;
+    height: 120vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    perspective: 1000px;
+    perspective: 800px;
     perspective-origin: center 50px;
 }
 
 .cube {
     position: relative;
     transform-style: preserve-3d;
-    animation: rotate 10s;
+    animation: rotate 7s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
