@@ -3,14 +3,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    perspective: 900px;
-    perspective-origin: center 50px;
+    perspective: 1000px;
+    perspective-origin: center 60px;
 }
 
 .cube {
     position: relative;
     transform-style: preserve-3d;
-    animation: rotate 10s;
+    animation: rotate 14s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -22,11 +22,11 @@
 }
 
 .cube__side--front, .cube__side--back {
-    background-color: #6c31cc;
+    background-color: #31cc5a;
 }
 
 .cube__side--left, .cube__side--right {
-    background-color: #60228f;
+    background-color: #8f6b22;
 }
 
 .cube__side--top, .cube__side--bottom {
