@@ -1,36 +1,36 @@
 .flex-wrapper {
-    height: 100vh;
+    height: 150vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    perspective: 1000px;
+    perspective: 850px;
     perspective-origin: center 60px;
 }
 
 .cube {
     position: relative;
     transform-style: preserve-3d;
-    animation: rotate 14s;
+    animation: rotate 17s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 
 .cube__side {
     position: absolute;
-    width: 100px;
+    width: 150px;
     height: 100px;
 }
 
 .cube__side--front, .cube__side--back {
-    background-color: #31cc5a;
+    background-color: #ba31cc;
 }
 
 .cube__side--left, .cube__side--right {
-    background-color: #8f6b22;
+    background-color: #c32cc9;
 }
 
 .cube__side--top, .cube__side--bottom {
-    background-color: #521b72;
+    background-color: #ab20ba;
 }
 
 .cube__side--top {
