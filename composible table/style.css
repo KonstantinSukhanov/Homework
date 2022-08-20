@@ -2,13 +2,13 @@ body {
     background-color: #ebecf3;
     font-family: Roboto, sans-serif;
     color: #333;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .conteiner {
     margin-left: auto;
     margin-right: auto;
-    padding: 40px;
+    padding: 50px;
     max-width: 1080px;
     display: grid;
     grid-template-columns: auto 1fr 1fr 1fr;
@@ -17,10 +17,10 @@ body {
 }
 
 .grid-label {
-    font-weight: 600;
-    padding-top: 20px;
+    font-weight: 700;
+    padding-top: 40px;
     padding-bottom: 20px;
-    padding-right: 20px;
+    padding-right: 30px;
     border-top: rgba(0, 0, 0, 0.12) 1px solid;
     display: grid;
     align-items: center;
