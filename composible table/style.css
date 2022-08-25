@@ -2,13 +2,13 @@ body {
     background-color: #ebecf3;
     font-family: Roboto, sans-serif;
     color: #333;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .conteiner {
     margin-left: auto;
     margin-right: auto;
-    padding: 50px;
+    padding: 60px;
     max-width: 1080px;
     display: grid;
     grid-template-columns: auto 1fr 1fr 1fr;
@@ -18,16 +18,16 @@ body {
 
 .grid-label {
     font-weight: 700;
-    padding-top: 40px;
+    padding-top: 50px;
     padding-bottom: 20px;
-    padding-right: 30px;
+    padding-right: 40px;
     border-top: rgba(0, 0, 0, 0.12) 1px solid;
     display: grid;
     align-items: center;
 }
 
 .grid-header-item {
-    padding: 16px;
+    padding: 20px;
     background-color: #ffffff;
     color: #000;
     display: grid;
