@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(199, 247, 255);
+    background-color: rgb(250, 199, 255);
 }
 
 .under {
@@ -21,7 +21,7 @@ h3:target {
 
 a {
     text-decoration: none;
-    color: blue;
+    color: rgb(242, 0, 255);
 }
 
 a:hover {
@@ -29,15 +29,15 @@ a:hover {
 }
 
 a:active {
-    color: grey;
+    color: rgb(178, 178, 178);
 }
 
 .links {
     display: inline-block;
     background-color: white;
-    height: 145px;
+    height: 170px;
     width: 170px;
-    border: solid 1px;
+    border: solid 3px;
 }
 
 .backgorund-links {
@@ -51,7 +51,7 @@ a:active {
 .articles {
     display: inline-block;
     background-color: rgb(180, 180, 180);
-    height: 170px;
+    height: 210px;
     width: 210px;
     margin: 5px;
 }
